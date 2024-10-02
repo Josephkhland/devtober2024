@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://3wttrkpl5t1a"]
+
+[ext_resource type="PackedScene" uid="uid://dl0k41d5vu3u8" path="res://src/Game Objects/GrowingPlant/growing_plant.tscn" id="1_27tep"]
+
+[node name="Test" type="Node2D"]
+
+[node name="GrowingPlant" parent="." instance=ExtResource("1_27tep")]
+position = Vector2(557, 254)
